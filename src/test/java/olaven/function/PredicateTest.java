@@ -4,16 +4,14 @@ import com.sun.javaws.exceptions.InvalidArgumentException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestTemplate;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
-
-public class ConsumerTest {
+public class PredicateTest {
 
     @TestTemplate
     private<Item, ExceptionType extends Throwable> void
-        methodAcceptingConsumer(Item item, Consumer<Item, ExceptionType> consumer) throws ExceptionType {
-        consumer.accept(item);
+    methodAcceptingConsumer(Item item, Predicate<Item, ExceptionType> consumer) throws ExceptionType {
+        consumer.test(item);
     }
 
     @Test
