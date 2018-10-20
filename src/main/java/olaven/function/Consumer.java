@@ -11,18 +11,18 @@ import java.util.Objects;
  * whose functional method is {@link #accept(Object)}.
  *
  * @param <Type> the type of the input to the operation.
- * @param <Throwable> the type of exception that may be thrown
+ * @param <ExceptionType> the type of exception that may be thrown
  *
  */
 @FunctionalInterface
-public interface Consumer<Type, Throwable extends java.lang.Throwable> {
+public interface Consumer<Type, ExceptionType extends java.lang.Throwable> {
 
     /**
      * Performs this operation on the given argument.
      *
      * @param type the input argument
      */
-    void accept(Type type) throws Throwable;
+    void accept(Type type) throws ExceptionType;
 
     /**
      * Returns a composed {@code Consumer} that performs, in sequence, this
@@ -36,7 +36,7 @@ public interface Consumer<Type, Throwable extends java.lang.Throwable> {
      * operation followed by the {@code after} operation
      * @throws NullPointerException if {@code after} is null
      */
-    default olaven.function.Consumer<Type, Throwable> andThen(olaven.function.Consumer<? super Type, Throwable> after) {
+    default olaven.function.Consumer<Type, ExceptionType> andThen(olaven.function.Consumer<? super Type, ExceptionType> after) {
         Objects.requireNonNull(after);
         return (Type type) -> { accept(type); after.accept(type); };
     }

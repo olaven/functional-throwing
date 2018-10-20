@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd4881fc-7c5b-4e1e-85f8-d1b66896c171" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/olaven/function/Predicate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional-throwing.iml" afterPath="$PROJECT_DIR$/functional-throwing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/olaven/function/Consumer.java" afterPath="$PROJECT_DIR$/src/main/java/olaven/function/Consumer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/olaven/function/ConsumerTest.java" afterPath="$PROJECT_DIR$/src/test/java/olaven/function/ConsumerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,14 +18,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConsumerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/olaven/function/ConsumerTest.java">
+      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/olaven/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,14 +33,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>after</find>
+      <find>thro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,8 +57,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/olaven/function/Consumer.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/olaven/function/Consumer.java" />
         <option value="$PROJECT_DIR$/src/test/java/olaven/function/ConsumerTest.java" />
       </list>
     </option>
@@ -165,7 +163,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/olav/Documents/github/throwable-function/src/main/java/olaven/function/Consumer.java&#10;readme&#9;FILE&#9;file:///Users/olav/Documents/github/throwable-function/README.md" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/olav/Documents/github/functional-throwing/src/test/java/olaven/function/ConsumerTest.java&#10;Throwable&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Throwable.class&#10;readme&#9;FILE&#9;file:///Users/olav/Documents/github/throwable-function/README.md" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -192,7 +190,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ConsumerTest">
+    <configuration name="ConsumerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="olaven.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="functional-throwing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="olaven.function" />
+      <option name="MAIN_CLASS_NAME" value="olaven.function.ConsumerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ConsumerTest.someCustomException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="olaven.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="functional-throwing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="olaven.function" />
+      <option name="MAIN_CLASS_NAME" value="olaven.function.ConsumerTest" />
+      <option name="METHOD_NAME" value="someCustomException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -274,6 +322,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ConsumerTest.someCustomException" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ConsumerTest" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConsumerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConsumerTest.someCustomException" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -294,30 +352,44 @@
       <workItem from="1539859175565" duration="597000" />
       <workItem from="1539931043119" duration="878000" />
       <workItem from="1539936223740" duration="342000" />
-      <workItem from="1540055482666" duration="609000" />
+      <workItem from="1540055482666" duration="2965000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ConsumerTest - 2018.10.20 at 21h 16m 43s.xml">
+      <configuration name="ConsumerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTest - 2018.10.20 at 21h 18m 08s.xml">
+      <configuration name="ConsumerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTest_someCustomException - 2018.10.20 at 20h 53m 04s.xml">
+      <configuration name="ConsumerTest.someCustomException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsumerTest_someCustomException - 2018.10.20 at 21h 16m 05s.xml">
+      <configuration name="ConsumerTest.someCustomException" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3997000" />
+    <option name="totallyTimeSpent" value="6353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -349,7 +421,14 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1540063086142" expanded="true" signature="33:336" ph="..." />
+            <marker date="1540063086142" expanded="true" signature="528:566" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="616:853" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="701:845" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="750:833" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="909:1146" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="994:1138" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="1043:1126" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -359,7 +438,14 @@
         <state relative-caret-position="90">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1540063086142" expanded="true" signature="33:336" ph="..." />
+            <marker date="1540063086142" expanded="true" signature="528:566" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="616:853" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="701:845" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="750:833" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="909:1146" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="994:1138" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="1043:1126" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -393,13 +479,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/olaven/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <marker date="1500701272000" expanded="false" signature="0:215" ph="/.../" />
+            <marker date="1500701272000" expanded="true" signature="272:674" ph="/**...*/" />
+            <marker date="1500701272000" expanded="true" signature="732:839" ph="/**...*/" />
+            <marker date="1500701272000" expanded="true" signature="867:1507" ph="/**...*/" />
+            <marker date="1500701272000" expanded="true" signature="1567:1670" ph="{...}" />
+            <marker date="1500701272000" expanded="true" signature="1632:1663" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -419,13 +506,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Throwable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1500701265000" expanded="true" signature="0:104" ph="/.../" />
+            <marker date="1500701265000" expanded="false" signature="133:497" ph="..." />
+            <marker date="1500701265000" expanded="true" signature="1443:1584" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="1620:1796" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="1848:2051" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="2090:2326" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="2409:2778" ph="{...}" />
+            <marker date="1500701265000" expanded="false" signature="2810:2821" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="2847:2853" ph=" }" />
+            <marker date="1500701265000" expanded="false" signature="2894:2905" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="2930:2936" ph=" }" />
+            <marker date="1500701265000" expanded="false" signature="2982:2993" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="3039:3045" ph=" }" />
+            <marker date="1500701265000" expanded="true" signature="3107:3469" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="3500:3663" ph="{...}" />
+            <marker date="1500701265000" expanded="false" signature="3698:3709" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="3742:3748" ph=" }" />
+            <marker date="1500701265000" expanded="true" signature="3800:3910" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="3981:4955" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="5107:6393" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="6445:6555" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="6610:6800" ph="{...}" />
+            <marker date="1500701265000" expanded="false" signature="6906:6917" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="6977:6983" ph=" }" />
+            <marker date="1500701265000" expanded="true" signature="7049:7570" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="7628:8063" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="8260:10049" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="10137:10489" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="10556:11055" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="11115:11320" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="11404:11741" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="11499:11572" ph="{...}" />
+            <marker date="1500701265000" expanded="false" signature="11595:11610" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="11634:11644" ph=" }" />
+            <marker date="1500701265000" expanded="false" signature="11679:11694" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="11725:11735" ph=" }" />
+            <marker date="1500701265000" expanded="true" signature="11825:12162" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="11920:11993" ph="{...}" />
+            <marker date="1500701265000" expanded="false" signature="12016:12031" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="12055:12065" ph=" }" />
+            <marker date="1500701265000" expanded="false" signature="12100:12115" ph=" { " />
+            <marker date="1500701265000" expanded="false" signature="12146:12156" ph=" }" />
+            <marker date="1500701265000" expanded="true" signature="12218:12353" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="12258:12269" ph="{}" />
+            <marker date="1500701265000" expanded="true" signature="12395:12771" ph="{...}" />
+            <marker date="1500701265000" expanded="true" signature="12636:12647" ph="{}" />
+            <marker date="1500701265000" expanded="true" signature="12664:12765" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/olaven/function/ConsumerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="426">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1540063086142" expanded="true" signature="33:336" ph="..." />
+            <marker date="1540063086142" expanded="true" signature="528:566" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="616:853" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="701:845" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="750:833" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="909:1146" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="994:1138" ph="{...}" />
+            <marker date="1540063086142" expanded="true" signature="1043:1126" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/olaven/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <marker date="1540062374446" expanded="true" signature="53:512" ph="/**...*/" />
+            <marker date="1540062374446" expanded="true" signature="616:726" ph="/**...*/" />
+            <marker date="1540062374446" expanded="true" signature="781:1421" ph="/**...*/" />
+            <marker date="1540062374446" expanded="true" signature="1549:1664" ph="{...}" />
+            <marker date="1540062374446" expanded="true" signature="1620:1657" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/olaven/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
