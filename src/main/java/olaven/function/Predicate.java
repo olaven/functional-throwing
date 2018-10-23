@@ -38,7 +38,7 @@ import java.util.Objects;
  * @since 1.8
  */
 @FunctionalInterface
-public interface Predicate<Type, ExceptioType extends Throwable> {
+public interface Predicate<Type, ExceptionType extends Throwable> {
 
     /**
      * Evaluates this predicate on the given argument.
@@ -47,7 +47,7 @@ public interface Predicate<Type, ExceptioType extends Throwable> {
      * @return {@code true} if the input argument matches the predicate,
      * otherwise {@code false}
      */
-    boolean test(Type type) throws ExceptioType;
+    boolean test(Type type) throws ExceptionType;
 
     /**
      * Returns a composed predicate that represents a short-circuiting logical
@@ -65,7 +65,7 @@ public interface Predicate<Type, ExceptioType extends Throwable> {
      * AND of this predicate and the {@code other} predicate
      * @throws NullPointerException if other is null
      */
-    default Predicate<Type, ExceptioType> and(Predicate<? super Type, ExceptioType> other) {
+    default Predicate<Type, ExceptionType> and(Predicate<? super Type, ExceptionType> other) {
         Objects.requireNonNull(other);
         return (type) -> test(type) && other.test(type);
     }
@@ -77,7 +77,7 @@ public interface Predicate<Type, ExceptioType extends Throwable> {
      * @return a predicate that represents the logical negation of this
      * predicate
      */
-    default Predicate<Type, ExceptioType> negate() {
+    default Predicate<Type, ExceptionType> negate() {
         return (type) -> !test(type);
     }
 
@@ -97,7 +97,7 @@ public interface Predicate<Type, ExceptioType extends Throwable> {
      * OR of this predicate and the {@code other} predicate
      * @throws NullPointerException if other is null
      */
-    default Predicate<Type, ExceptioType> or(Predicate<? super Type, ExceptioType> other) {
+    default Predicate<Type, ExceptionType> or(Predicate<? super Type, ExceptionType> other) {
         Objects.requireNonNull(other);
         return (type) -> test(type) || other.test(type);
     }
